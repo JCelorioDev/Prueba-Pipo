@@ -1,18 +1,12 @@
 <div>
     <div>
-        <table>
-            <thead >
-                <tr >
-                    <td >
-                       Paciente
-                    </td>
-                    <td>
-                       Cedula
-                     </td>
-                     <td>
-                       Sintoma
-                     </td>
-                </tr>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" style="color: red">Paciente</th>
+                <th scope="col" style="color: red">Cedula</th>
+                <th scope="col" style="color: red">Sintoma</th>
+              </tr>
             </thead>
             <tbody>
                 @foreach ($s as $item)
